@@ -1,0 +1,251 @@
+{
+  "dataset_name": "MedGuide AI Educational Healthcare Knowledge Base",
+  "notice": "Educational information only; not medical advice, diagnosis or treatment.",
+  "records": [
+    {
+      "id": "HG001",
+      "topic": "hygiene",
+      "question": "Why is handwashing important?",
+      "answer": "Handwashing with soap and clean water at key times helps remove germs and reduce the spread of infections. Important times include before preparing or eating food, after using the toilet, after coughing or sneezing, and whenever hands are visibly dirty.",
+      "source_url": "https://www.who.int/news/item/15-10-2025-new-guidelines-on-community-hand-hygiene-to-help-governments-reduce-the-spread-of-infectious-diseases"
+    },
+    {
+      "id": "HG002",
+      "topic": "hygiene",
+      "question": "When should I clean my hands?",
+      "answer": "Clean hands before preparing food and eating, after using the toilet, after handling waste, after coughing or sneezing, and whenever visibly dirty. Soap and water are preferred when hands are visibly dirty; alcohol-based hand rub can be an alternative when they are not.",
+      "source_url": "https://www.who.int/news/item/15-10-2025-new-guidelines-on-community-hand-hygiene-to-help-governments-reduce-the-spread-of-infectious-diseases"
+    },
+    {
+      "id": "HG003",
+      "topic": "hygiene",
+      "question": "What is infection prevention and control?",
+      "answer": "Infection prevention and control (IPC) refers to evidence-based practices that prevent avoidable infections in healthcare and community settings. It includes hand hygiene, safe injections, sanitation and appropriate precautions.",
+      "source_url": "https://www.who.int/india/health-topics/infection-prevention-and-control"
+    },
+    {
+      "id": "HG004",
+      "topic": "hygiene",
+      "question": "What does sanitation mean?",
+      "answer": "Sanitation includes systems and practices for safely managing human waste and keeping environments clean. Safe sanitation and hygiene help reduce exposure to infectious organisms.",
+      "source_url": "https://www.who.int/tools/compendium-on-health-and-environment/wash"
+    },
+    {
+      "id": "HG005",
+      "topic": "nutrition",
+      "question": "What is a healthy diet?",
+      "answer": "A healthy diet is based on adequacy, balance, moderation and diversity. It generally includes a variety of fruits, vegetables, pulses, whole grains and other nutritious foods, while limiting excess salt, free sugars and unhealthy fats. Individual needs vary.",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "id": "HG006",
+      "topic": "nutrition",
+      "question": "Why should I eat fruits and vegetables?",
+      "answer": "Fruits and vegetables provide vitamins, minerals and dietary fibre. Eating a variety of them as part of a balanced diet supports health. Fresh, frozen or suitable canned options can all contribute.",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "id": "HG007",
+      "topic": "nutrition",
+      "question": "What is dietary fibre?",
+      "answer": "Dietary fibre is the part of plant foods that is not fully digested in the small intestine. Whole grains, pulses, fruits and vegetables are common sources. Fibre is one component of a varied healthy diet.",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "id": "HG008",
+      "topic": "nutrition",
+      "question": "Why is drinking safe water important?",
+      "answer": "Safe drinking water is important for health and helps prevent waterborne illness. Water safety depends on protecting sources, treatment where needed, and safe storage and handling.",
+      "source_url": "https://www.who.int/tools/compendium-on-health-and-environment/wash"
+    },
+    {
+      "id": "HG009",
+      "topic": "physical_activity",
+      "question": "Why is physical activity important?",
+      "answer": "Regular physical activity supports physical and mental health and can reduce the risk of several noncommunicable diseases. Suitable activity depends on age, ability and health status; people with concerns should seek professional guidance.",
+      "source_url": "https://www.who.int/health-topics/physical-activity"
+    },
+    {
+      "id": "HG010",
+      "topic": "sleep",
+      "question": "Why is sleep important?",
+      "answer": "Sleep supports overall health and daily functioning. Sleep needs vary with age and individual circumstances. Persistent sleep difficulties or symptoms affecting daily life are worth discussing with a healthcare professional.",
+      "source_url": "https://www.who.int/health-topics/mental-health"
+    },
+    {
+      "id": "HG011",
+      "topic": "prevention",
+      "question": "What is preventive healthcare?",
+      "answer": "Preventive healthcare includes actions intended to maintain health or identify health risks early. Examples include recommended vaccinations, screening when appropriate, healthy habits and routine consultations based on individual needs.",
+      "source_url": "https://www.who.int/health-topics/primary-health-care"
+    },
+    {
+      "id": "HG012",
+      "topic": "prevention",
+      "question": "What is a health screening?",
+      "answer": "Screening uses a test or assessment to look for a health condition or risk before symptoms may be present. Not every screening test is appropriate for every person; discuss benefits, risks and timing with a qualified healthcare professional.",
+      "source_url": "https://www.who.int/health-topics/noncommunicable-diseases"
+    },
+    {
+      "id": "HG013",
+      "topic": "vaccination",
+      "question": "Why are vaccines important?",
+      "answer": "Vaccines train the immune system to recognize specific infections and help prevent illness and complications. Vaccine recommendations depend on age, health circumstances and local public-health guidance.",
+      "source_url": "https://www.who.int/health-topics/vaccines-and-immunization"
+    },
+    {
+      "id": "HG014",
+      "topic": "vaccination",
+      "question": "What is herd immunity?",
+      "answer": "When a sufficiently large proportion of a population is immune to an infection, its spread can become less likely, which can help protect people who cannot be vaccinated. The level needed varies by disease and vaccine.",
+      "source_url": "https://www.who.int/health-topics/vaccines-and-immunization"
+    },
+    {
+      "id": "HG015",
+      "topic": "vaccination",
+      "question": "Where can I find vaccination information in India?",
+      "answer": "For vaccination schedules and programme information, consult India's Ministry of Health and Family Welfare and official immunization programme resources, or ask a qualified healthcare professional. Recommendations can change over time.",
+      "source_url": "https://mohfw.gov.in/"
+    },
+    {
+      "id": "HG016",
+      "topic": "medicine_safety",
+      "question": "Why should I follow a prescription?",
+      "answer": "A prescription records a qualified prescriber's instructions for a particular person. Follow the directions provided and ask the prescriber or pharmacist if anything is unclear. Do not share prescription medicines with others.",
+      "source_url": "https://www.who.int/health-topics/medicines"
+    },
+    {
+      "id": "HG017",
+      "topic": "medicine_safety",
+      "question": "What information is usually on a medicine label?",
+      "answer": "A medicine label may include the product name, active ingredient, strength, directions, warnings, storage instructions, expiry information and manufacturer details. Read the label and ask a pharmacist if information is unclear.",
+      "source_url": "https://www.who.int/health-topics/medicines"
+    },
+    {
+      "id": "HG018",
+      "topic": "medicine_safety",
+      "question": "How should medicines be stored?",
+      "answer": "Follow the storage instructions on the package or from the pharmacist. Keep medicines in their original labelled packaging, away from children, and avoid storing them in places with unsuitable heat or moisture.",
+      "source_url": "https://www.who.int/health-topics/medicines"
+    },
+    {
+      "id": "HG019",
+      "topic": "medicine_safety",
+      "question": "What does an expiry date mean on medicine?",
+      "answer": "The expiry date is the date through which the manufacturer supports the medicine's quality under specified storage conditions. Do not use expired medicines; ask a pharmacist about safe disposal or replacement.",
+      "source_url": "https://www.who.int/health-topics/medicines"
+    },
+    {
+      "id": "HG020",
+      "topic": "medicine_safety",
+      "question": "Can I share my medicine with someone else?",
+      "answer": "No. A medicine prescribed for one person may be unsuitable or harmful for another because health conditions, allergies, interactions and other factors differ. Each person should obtain advice from a qualified professional.",
+      "source_url": "https://www.who.int/health-topics/medicines"
+    },
+    {
+      "id": "HG021",
+      "topic": "medicine_safety",
+      "question": "What are side effects?",
+      "answer": "A side effect is an unintended effect that can occur when using a medicine. The type and likelihood vary by product and person. Read the patient information and contact a healthcare professional about concerns; seek urgent help for severe reactions.",
+      "source_url": "https://www.who.int/health-topics/medicines"
+    },
+    {
+      "id": "HG022",
+      "topic": "medicine_safety",
+      "question": "What is antimicrobial resistance?",
+      "answer": "Antimicrobial resistance occurs when microorganisms change so medicines used against them become less effective. Misuse and overuse of antimicrobial medicines contribute to this problem. Use these medicines only under appropriate professional guidance.",
+      "source_url": "https://www.who.int/india/health-topics/antimicrobial-resistance"
+    },
+    {
+      "id": "HG023",
+      "topic": "medicine_safety",
+      "question": "Why should antibiotics not be used unnecessarily?",
+      "answer": "Antibiotics treat certain bacterial infections, not viral illnesses such as common colds. Unnecessary or incorrect use contributes to antimicrobial resistance. A qualified clinician decides whether an antibiotic is appropriate.",
+      "source_url": "https://www.who.int/india/health-topics/antimicrobial-resistance"
+    },
+    {
+      "id": "HG024",
+      "topic": "terminology",
+      "question": "What is blood pressure?",
+      "answer": "Blood pressure is the force of circulating blood against artery walls. A reading has two numbers: systolic pressure and diastolic pressure. Interpretation depends on clinical context, so discuss readings with a healthcare professional.",
+      "source_url": "https://www.who.int/health-topics/hypertension"
+    },
+    {
+      "id": "HG025",
+      "topic": "terminology",
+      "question": "What is blood glucose?",
+      "answer": "Blood glucose is the amount of sugar (glucose) in the blood. Levels change with meals, activity, medicines and other factors. Testing and interpretation should be discussed with a healthcare professional.",
+      "source_url": "https://www.who.int/health-topics/diabetes"
+    },
+    {
+      "id": "HG026",
+      "topic": "terminology",
+      "question": "What is inflammation?",
+      "answer": "Inflammation is part of the body's response to injury or infection. It can involve redness, warmth, swelling or pain, but symptoms have many possible causes and cannot establish a diagnosis by themselves.",
+      "source_url": "https://www.who.int/health-topics"
+    },
+    {
+      "id": "HG027",
+      "topic": "terminology",
+      "question": "What is immunity?",
+      "answer": "Immunity is the body's ability to resist or respond to infections and other foreign substances. The immune system includes cells, tissues and organs that work together. Vaccination can help build protection against specific infections.",
+      "source_url": "https://www.who.int/health-topics/vaccines-and-immunization"
+    },
+    {
+      "id": "HG028",
+      "topic": "first_aid",
+      "question": "What is first aid?",
+      "answer": "First aid is immediate assistance given to someone who is injured or suddenly ill while appropriate professional help is arranged. It should be provided within the helper's training and without putting anyone at further risk.",
+      "source_url": "https://www.who.int/health-topics/emergency-care"
+    },
+    {
+      "id": "HG029",
+      "topic": "first_aid",
+      "question": "What should I do for a minor burn?",
+      "answer": "For a minor thermal burn, cool the burn under cool or lukewarm running water and seek medical advice when needed. Do not apply ice or unverified home remedies. Large, deep, chemical or electrical burns need urgent professional assessment.",
+      "source_url": "https://www.nhs.uk/conditions/burns-and-scalds/"
+    },
+    {
+      "id": "HG030",
+      "topic": "first_aid",
+      "question": "What should I do if someone is unconscious?",
+      "answer": "An unconscious person needs urgent assessment. Call local emergency services immediately. Check whether they are breathing normally and follow the emergency dispatcher's instructions. Do not give food or drink.",
+      "source_url": "https://www.nhs.uk/conditions/first-aid/"
+    },
+    {
+      "id": "HG031",
+      "topic": "first_aid",
+      "question": "What should I do for severe bleeding?",
+      "answer": "Severe bleeding is an emergency. Call local emergency services immediately. If it is safe, apply firm direct pressure to the wound with a clean dressing or cloth while waiting for help. Follow dispatcher instructions.",
+      "source_url": "https://www.nhs.uk/conditions/first-aid/"
+    },
+    {
+      "id": "HG032",
+      "topic": "professional_help",
+      "question": "When should I seek medical advice?",
+      "answer": "Seek professional advice for symptoms that are severe, persistent, worsening, unusual, or affecting normal activities, and for concerns about medicines or test results. Emergency symptoms require immediate emergency care rather than waiting for an online response.",
+      "source_url": "https://www.who.int/health-topics/primary-health-care"
+    },
+    {
+      "id": "HG033",
+      "topic": "mental_wellbeing",
+      "question": "What does mental health mean?",
+      "answer": "Mental health is a state of mental well-being that helps people cope with life stresses, realize abilities, learn, work and contribute to their community. Mental health concerns deserve support from qualified professionals.",
+      "source_url": "https://www.who.int/health-topics/mental-health"
+    },
+    {
+      "id": "HG034",
+      "topic": "food_safety",
+      "question": "How can I reduce foodborne illness risk?",
+      "answer": "Use safe water and raw materials, keep food clean, separate raw and cooked foods, cook thoroughly, and store food at safe temperatures. Follow local food-safety advice, especially during outbreaks or emergencies.",
+      "source_url": "https://www.who.int/health-topics/food-safety"
+    },
+    {
+      "id": "HG035",
+      "topic": "tobacco",
+      "question": "Why is avoiding tobacco important?",
+      "answer": "Tobacco use harms health and increases the risk of serious diseases. Avoiding tobacco and seeking evidence-based help to quit can improve health. A healthcare professional or public-health service can discuss support options.",
+      "source_url": "https://www.who.int/health-topics/tobacco"
+    }
+  ]
+}

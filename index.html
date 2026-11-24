@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MedGuide AI healthcare awareness assistant">
+  <title>MedGuide AI | Healthcare Awareness</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><div class="brand-mark">✚</div><div><strong>MedGuide AI</strong><small>Healthcare awareness assistant</small></div></div>
+  <span class="local-pill"><i></i> Educational assistant</span>
+</header>
+<main class="layout">
+  <section class="hero">
+    <div class="eyebrow">YOUR HEALTH INFORMATION COMPANION</div>
+    <h1>Understand health.<br><span>Make informed choices.</span></h1>
+    <p>Ask general healthcare questions and explore clear, source-backed educational information.</p>
+    <div class="hero-note">This assistant is for awareness and education — not diagnosis or treatment.</div>
+  </section>
+
+  <section class="chat-card" aria-label="Healthcare chatbot">
+    <div class="chat-heading">
+      <div class="assistant-avatar">✚</div>
+      <div><h2>Chat with MedGuide</h2><p><span class="online-dot"></span> Knowledge base + local AI</p></div>
+      <span class="model-tag">LLM · RAG</span>
+    </div>
+    <div id="chatArea" class="chat-area" aria-live="polite">
+      <article class="message assistant">
+        <div class="bubble"><strong>Hello! I'm MedGuide AI.</strong><br>Ask me about general health, hygiene, nutrition, vaccination, first aid or medicine safety. I'll use educational sources to help explain the topic.</div>
+      </article>
+    </div>
+    <div id="emergencyArea" class="emergency hidden" role="alert"></div>
+    <form id="questionForm" class="composer">
+      <label class="sr-only" for="questionInput">Your healthcare question</label>
+      <textarea id="questionInput" rows="2" maxlength="1500" placeholder="Ask a general healthcare question..." required></textarea>
+      <button id="askButton" type="submit">Ask <span>➤</span></button>
+    </form>
+    <div class="suggestions"><span>Try asking:</span>
+      <button class="suggestion">Why is handwashing important?</button>
+      <button class="suggestion">What is antimicrobial resistance?</button>
+      <button class="suggestion">Why are vaccines important?</button>
+    </div>
+    <section id="sourcesPanel" class="sources-panel hidden">
+      <div class="sources-title"><h3>Retrieved knowledge sources</h3><span>Top matches</span></div>
+      <div id="sourcesList"></div>
+    </section>
+    <section id="feedbackPanel" class="feedback hidden">
+      <span>Was this answer helpful?</span>
+      <button data-helpful="true">👍 Yes</button><button data-helpful="false">👎 No</button>
+      <small id="feedbackMessage"></small>
+    </section>
+    <div id="statusMessage" class="status" role="status"></div>
+  </section>
+  <section class="info-grid">
+    <article><div class="info-icon">⌕</div><h3>Source-backed answers</h3><p>Relevant educational records are retrieved and shown with source links and similarity scores.</p></article>
+    <article><div class="info-icon">⚕</div><h3>Safety first</h3><p>Emergency phrases trigger urgent guidance before any AI generation request.</p></article>
+    <article><div class="info-icon">◈</div><h3>Local AI</h3><p>Llama 3.2 runs through Ollama on your computer when available.</p></article>
+  </section>
+  <footer><strong>Important disclaimer</strong><p>MedGuide AI is an academic educational project. It does not diagnose diseases, prescribe or recommend medicines or dosages, or replace a qualified healthcare professional. For personal medical concerns, consult a qualified professional. In an emergency in India, call 112 or your local emergency number.</p></footer>
+</main>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
